@@ -59,23 +59,20 @@ $ git clone https://github.com/filipebteixeira98/ecoleta-api.git && cd ecoleta-a
 **Install dependencies**
 
 ```bash
-$ yarn
+$ npm install
 ```
 
 **Follow the steps below**
 
 ```bash
-# Install the dependencies
-$ yarn
-
 # Use the script to run the migrations
-$ yarn server knex:migrate
+$ npm run knex:migrate
 
 # Use the script to run the seeds
-$ yarn server knex:seed
+$ npm run knex:seed
 
 # To finish, run the api service
-$ yarn server dev
+$ npm run dev
 
 # Well done, project is started!
 ```
